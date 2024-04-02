@@ -40,8 +40,8 @@ for name1, name2 in zip(names, names_underscore):
                 run.text = run.text.replace("ABC", "Chamel Nadir Bouacha")  # Replace ABC with the Ambassador Name
             if "CSC" in run.text:
                 run.text = run.text.replace("CSC", "Ambassador Challenge Dive Into The World Of Cloud With Azure")  # Replace CSC with the Event Name
-            if "DATE" in run.text:
-                run.text = run.text.replace("DATE", "5th March to 8th March 2024")  # Replace DATE with the Event Date
+            '''if "DATE" in run.text:
+                run.text = run.text.replace("DATE", "8th March 2024")  # Replace DATE with the Event Date'''
 
     # Create the necessary directories if they don't exist
     os.makedirs('Output/DOCS/', exist_ok=True)
